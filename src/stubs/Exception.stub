@@ -2,7 +2,7 @@
 
 namespace App\Exceptions;
 
-use GzhPackages\JsonApi\Exceptions\BaseApiException;
+use WwjPackages\JsonApi\Exceptions\BaseApiException;
 
 class DummyClass extends BaseApiException
 {

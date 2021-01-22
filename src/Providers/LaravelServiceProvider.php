@@ -1,7 +1,7 @@
 <?php
 
 
-namespace GzhPackages\JsonApi\Providers;
+namespace WwjPackages\JsonApi\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
@@ -17,6 +17,6 @@ class LaravelServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->commands('GzhPackages\JsonApi\Console\MakeApiException');
+        $this->commands('WwjPackages\JsonApi\Console\MakeApiException');
     }
 }

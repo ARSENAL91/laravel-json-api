@@ -1,7 +1,7 @@
 <?php
 
 
-namespace GzhPackages\JsonApi\Console;
+namespace WwjPackages\JsonApi\Console;
 
 use Illuminate\Console\GeneratorCommand;
 

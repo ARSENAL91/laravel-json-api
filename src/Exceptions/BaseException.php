@@ -1,7 +1,7 @@
 <?php
 
 
-namespace GzhPackages\JsonApi\Exceptions;
+namespace WwjPackages\JsonApi\Exceptions;
 
 use Exception;
 
