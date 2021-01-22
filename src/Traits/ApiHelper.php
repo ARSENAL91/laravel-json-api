@@ -16,9 +16,9 @@ trait ApiHelper
             } else {
                 $result['msg'] = $msg;
             }
-          //  $result['data'] = !empty($data) ? $data : '';
-       //     return response()->json($result);
-            return $this->content($data,$result);
+            //  $result['data'] = !empty($data) ? $data : '';
+            //  return response()->json($result);
+            return $this->content($data, $result);
         } catch (\Exception $exception) {
             throw new \Exception('System Error');
         }
@@ -31,19 +31,19 @@ trait ApiHelper
         return response($res, Response::HTTP_OK);
     }
 
-   /* public function created()
-    {
-        return response(null, Response::HTTP_CREATED);
-    }
+    /* public function created()
+     {
+         return response(null, Response::HTTP_CREATED);
+     }
 
-    public function accepted()
-    {
-        return response(null, Response::HTTP_ACCEPTED);
-    }
+     public function accepted()
+     {
+         return response(null, Response::HTTP_ACCEPTED);
+     }
 
-    public function noContent()
-    {
-        return response(null, Response::HTTP_NO_CONTENT);
-    }*/
+     public function noContent()
+     {
+         return response(null, Response::HTTP_NO_CONTENT);
+     }*/
 
 }
