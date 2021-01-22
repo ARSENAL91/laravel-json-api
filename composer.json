@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WwjPackages\\JsonApi\\": "src/"
+            "GzhPackages\\JsonApi\\": "src/"
         }
     }
 }
